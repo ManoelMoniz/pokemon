@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listagem Pókemon</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/scrollbar.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+</head>
+
+<body background = "./src/imagens/grass.png" alt="Papel De Parede dia" class = "papel-de-parede-dia">
+           
+    <header>
+        <a href="#">
+            <img src="./src/imagens/pokeball.gif" alt="pokebola" class="logo">
+        </a>
+        <a href="#">
+            <img src="./src/imagens/pokemon.png" alt="pokemon-logo" class="pokemonlogo">
+        </a>
+        <buttom id="botao-alterar-tema">
+            <img src="./src/imagens/sun.gif" alt="imagem do sol" class="imagem-botao">
+        </buttom>
+    </header>
+    <main>        
+        <ul class="listagem-pokemon">
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Bulbasaur</span>
+                    <span>#001</span>
+                </div>
+
+                <img src="./src/imagens/bulbasaur.gif" alt="Bulbasaur" class="gif">
+                <ul class="tipos">
+                    <li class="tipo-grama">Grama</li>
+                    <li class="tipo-veneno">Veneno</li>
+                </ul>
+
+                <p class="descricao">Há uma semente de planta em suas costas desde o dia que este Pókemon nasce. A semente cresce lentamente.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Ivysaur</span>
+                    <span>#002</span>
+                </div>
+
+                <img src="./src/imagens/ivysaur.gif" alt="Ivysaur" class="gif">
+                <ul class="tipos">
+                    <li class="tipo-grama">Grama</li>
+                    <li class="tipo-veneno">Veneno</li>
+                </ul>
+
+                <p class="descricao">Quando o bulbo em suas costas cresce, parece perder a capacidade de ficar em pé em suas patas traseiras.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Venusaur</span>
+                    <span>#003</span>
+                </div>
+
+                <img src="./src/imagens/venusaur.gif" alt="Venusaur" class="gif">
+                <ul class="tipos">
+                    <li class="tipo-grama">Grama</li>
+                    <li class="tipo-veneno">Veneno</li>
+                </ul>
+
+                <p class="descricao">Sua planta floresce quando está absorvendo energia solar. Ele permanece em movimento para buscar energia solar.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Charmander</span>
+                    <span>#004</span>
+                </div>
+
+                <img src="./src/imagens/charmander.gif" alt="Charmander" class="gif">
+                <ul class="tipos">
+                    <li class="tipo-fogo">Fogo</li>
+
+                </ul>
+
+                <p class="descricao"> Tem preferência por coisas quentes. Quando chove, diz-se que o vapor jorra da ponta da sua cauda.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Charmeleon</span>
+                    <span>#005</span>
+                </div>
+
+                <img src="./src/imagens/charmeleon.gif" alt="Charmeleon" class="gif">
+                <ul class="tipos">
+                    <li class="tipo-fogo">Fogo</li>
+
+                </ul>
+
+                <p class="descricao"> Tem uma natureza bárbara. Na batalha, ele gira sua cauda de fogo e corta com garras afiadas.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Charizard</span>
+                    <span>#006</span>
+                </div>
+
+                <img src="./src/imagens/charizard.gif" alt="Charizard" class="gif">
+                <ul class="tipos">
+                    <li class="tipo-fogo">Fogo</li>
+
+                </ul>
+
+                <p class="descricao"> Diz-se que o fogo de Charizard queima mais se ele tiver passado por duras batalhas.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Squirtle</span>
+                    <span>#007</span>
+                </div>
+
+                <img src="./src/imagens/squirtle.gif" alt="Squirtle" class="gif">
+                <ul class="tipos">
+                    <li class="tipo-agua">Água</li>
+
+                </ul>
+
+                <p class="descricao"> Quando retrai o longo pescoço para dentro da concha, ele esguicha água com força vigorosa.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Wartortle</span>
+                    <span>#008</span>
+                </div>
+
+                <img src="./src/imagens/wartortle.gif" alt="Wartortle" class="gif">
+                <ul class="tipos">
+                    <li class="tipo-agua">Água</li>
+
+                </ul>
+
+                <p class="descricao"> É reconhecido como um símbolo de longevidade. Se sua concha contiver algas, esse Wartortle é muito antigo.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Blastoise</span>
+                    <span>#009</span>
+                </div>
+
+                <img src="./src/imagens/blastoise.gif" alt="Blastoise" class="gif">
+                <ul class="tipos">
+                    <li class="tipo-agua">Água</li>
+
+                </ul>
+
+                <p class="descricao"> Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em caso de emergência, ele se retirará para dentro de sua concha.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Mew</span>
+                    <span>#0151</span>
+                </div>
+
+                <img src="./src/imagens/mew.gif" alt="Mew" class="gif">
+                <ul class="tipos">
+                    <li class="tipo-psiquico">Pisíquico</li>
+
+                </ul>
+
+                <p class="descricao"> Quando visto através de um microscópio, o cabelo curto, fino e delicado deste Pokémon pode ser visto.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Chikorita</span>
+                    <span>#0152</span>
+                </div>
+
+                <img src="./src/imagens/chikorita.gif" alt="Chikorita" class="gif">
+                <ul class="tipos">
+                    <li class="tipo-grama">Grama</li>
+
+                </ul>
+
+                <p class="descricao"> Na batalha, Chikorita agita sua folha para manter o inimigo afastado. No entanto, uma fragrância doce também exala da folha, acalmando os Pokémon em batalha e criando uma atmosfera acolhedora e amigável ao redor.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Bayleef</span>
+                    <span>#0153</span>
+                </div>
+
+                <img src="./src/imagens/bayleef.gif" alt="Bayleef" class="gif">
+                <ul class="tipos">
+                    <li class="tipo-grama">Grama</li>
+
+                </ul>
+
+                <p class="descricao"> O pescoço de Bayleef é rodeado por folhas enroladas. Dentro de cada folha tubular há um pequeno broto de árvore. A fragrância deste ensaio deixa as pessoas animadas.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Meganium</span>
+                    <span>#0154</span>
+                </div>
+
+                <img src="./src/imagens/meganium.gif" alt="Meganium" class="gif">
+                <ul class="tipos">
+                    <li class="tipo-grama">Grama</li>
+
+                </ul>
+
+                <p class="descricao"> A fragrância da flor de Meganium acalma e acalma as emoções. Em batalha, este Pokémon exala mais do seu cheiro calmante para enfraquecer o espírito de luta do inimigo.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Cyndaquil</span>
+                    <span>#0155</span>
+                </div>
+
+                <img src="./src/imagens/cyndaquil.gif" alt="Cyndaquil" class="gif">
+                <ul class="tipos">
+                    <li class="tipo-fogo">Fogo</li>
+
+                </ul>
+
+                <p class="descricao"> Cyndaquil se protege acendendo as chamas em suas costas. As chamas são vigorosas se o Pokémon estiver com raiva. No entanto, se estiver cansado, as chamas crepitam intermitentemente com combustão incompleta.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Quilava</span>
+                    <span>#0156</span>
+                </div>
+
+                <img src="./src/imagens/quilava.gif" alt="Quilava" class="gif">
+                <ul class="tipos">
+                    <li class="tipo-fogo">Fogo</li>
+
+                </ul>
+
+                <p class="descricao"> Quilava mantém seus inimigos afastados com a intensidade de suas chamas e rajadas de ar superaquecido. Este Pokémon aplica sua incrível agilidade para desviar de ataques mesmo enquanto queima o inimigo com chamas.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Typhlosion</span>
+                    <span>#0157</span>
+                </div>
+
+                <img src="./src/imagens/typhlosion.gif" alt="Typhlosion" class="gif">
+                <ul class="tipos">
+                    <li class="tipo-fogo">Fogo</li>
+
+                </ul>
+
+                <p class="descricao"> Ele ataca usando rajadas de fogo, cria brilhos de calor com fogo intenso para se esconder.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Totodile</span>
+                    <span>#0158</span>
+                </div>
+
+                <img src="./src/imagens/totodile.gif" alt="Totodile" class="gif">
+                <ul class="tipos">
+                    <li class="tipo-agua">Água</li>
+
+                </ul>
+
+                <p class="descricao"> Apesar da pequenez do seu corpo, as mandíbulas do Totodile são muito poderosas. Embora o Pokémon possa pensar que está apenas mordendo de brincadeira, sua mordida tem poder suficiente para causar ferimentos graves.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Croconaw</span>
+                    <span>#0159</span>
+                </div>
+
+                <img src="./src/imagens/croconaw.gif" alt="Croconaw" class="gif">
+                <ul class="tipos">
+                    <li class="tipo-agua">Água</li>
+
+                </ul>
+
+                <p class="descricao"> Uma vez que Croconaw tenha fixado suas mandíbulas em seu inimigo, ele absolutamente não o soltará. Como as pontas de suas presas são bifurcadas como anzóis farpados, elas se tornam impossíveis de serem removidas depois de afundadas.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Feraligatr</span>
+                    <span>#0160</span>
+                </div>
+
+                <img src="./src/imagens/feraligatr.gif" alt="Feraligatr" class="gif">
+                <ul class="tipos">
+                    <li class="tipo-agua">Água</li>
+
+                </ul>
+
+                <p class="descricao"> Feraligatr intimida seus inimigos abrindo sua boca enorme. Na batalha, ele chutará o chão com força com suas patas traseiras grossas e poderosas para atacar o inimigo a uma velocidade incrível.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Celebi</span>
+                    <span>#0251</span>
+                </div>
+
+                <img src="./src/imagens/celebi.gif" alt="Celebi" class="gif">
+                <ul class="tipos">
+                    <li class="tipo-grama">Grama</li>
+                    <li class="tipo-psiquico">Psíquico</li>
+
+                </ul>
+
+                <p class="descricao"> Este Pokémon veio do futuro atravessando o tempo. Pensa-se que enquanto Celebi aparecer, um futuro brilhante e brilhante nos aguarda.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Pikachu</span>
+                    <span>#0025</span>
+                </div>
+
+                <img src="./src/imagens/pikachu.gif" alt="Pikachu" class="gif">
+                <ul class="tipos">
+                    <li class="tipo-eletrico">Elétrico</li>
+                    
+                </ul>
+
+                <p class="descricao"> Quando está irritado, descarrega imediatamente a energia armazenada nas bolsas em suas bochechas.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Jirachi</span>
+                    <span>#0385</span>
+                </div>
+
+                <img src="./src/imagens/jirachi.gif" alt="Jirachi" class="gif">
+                <ul class="tipos">
+                    <li class="tipo-psiquico">Psíquico</li>
+                    <li class="tipo-aco">Aço</li>
+                    
+                </ul>
+
+                <p class="descricao"> Uma lenda afirma que Jirachi realizará qualquer desejo escrito em notas presas à sua cabeça quando acordar. Se este Pokémon sentir perigo, ele lutará sem acordar.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Togepi</span>
+                    <span>#0175</span>
+                </div>
+
+                <img src="./src/imagens/togepi.gif" alt="Togepi" class="gif">
+                <ul class="tipos">
+                    <li class="tipo-fada">Fada</li>                   
+                    
+                </ul>
+
+                <p class="descricao"> A concha parece estar cheia de alegria. Diz-se que ele compartilhará boa sorte quando tratado com gentileza.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Ditto</span>
+                    <span>#0132</span>
+                </div>
+
+                <img src="./src/imagens/ditto.gif" alt="Ditto" class="gif">
+                <ul class="tipos">
+                    <li class="tipo-normal">Normal</li>                   
+                    
+                </ul>
+
+                <p class="descricao"> Sua capacidade de transformação é perfeita. No entanto, se for feito rir, não consegue manter seu disfarce.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Magikarp</span>
+                    <span>#0129</span>
+                </div>
+
+                <img src="./src/imagens/magikarp.gif" alt="Magikarp" class="gif">
+                <ul class="tipos">
+                    <li class="tipo-agua">Água</li>                   
+                    
+                </ul>
+
+                <p class="descricao"> Um Pokémon patético e pouco poderoso. Pode saltar alto em raras ocasiões, mas nunca mais de dois metros.</p>
+            </li>
+
+
+
+
+        </ul>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>

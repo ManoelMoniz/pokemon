@@ -1,0 +1,14 @@
+@media (max-width: 425px) {
+    header {
+        padding: 3px;
+        gap: 5px;
+    }
+
+    .pokemonlogo {
+        max-width: 150px;
+    }
+
+         
+
+    
+}
